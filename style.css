@@ -125,7 +125,7 @@ header {
 @media (min-width: 600px) {
   body {
     background-image: url(images/pattern-background-desktop.svg);
-    background-size: unset;
+    background-size: 100%;
   }
   .box {
     width: 450px;
