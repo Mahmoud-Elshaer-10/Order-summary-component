@@ -73,7 +73,7 @@ header {
 .price {
   margin-left: 18px;
 }
-.price h3 {
+.price h2 {
   font-size: 14.3px;
 }
 .price span {
@@ -99,6 +99,7 @@ header {
   margin: 0 auto 22px;
   font-weight: 700;
   font-size: 15.5px;
+  box-shadow: 0 20px 20px 0 #d8d0ff;
 }
 .cancel {
   display: block;
@@ -143,7 +144,7 @@ header {
     margin-right: 50px;
     padding: 21px;
   }
-  .price h3 {
+  .price h2 {
     font-size: 17px;
     position: relative;
     top: -5px;
