@@ -38,8 +38,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* Box Start */
-.box {
+/* Card Start */
+.card {
   margin: 71px auto;
   width: 327px;
   background-color: white;
@@ -49,13 +49,13 @@ body {
 header {
   position: relative;
 }
-.box h1 {
+.card h1 {
   font-size: 23px;
   margin-top: 31px;
   margin-bottom: 18px;
   color: hsl(223, 47%, 23%);
 }
-.box p {
+.card p {
   width: 246px;
   margin: 0 auto;
   font-size: 15px;
@@ -119,7 +119,7 @@ header {
 .cancel:hover {
   opacity: 1;
 }
-/* Box End */
+/* Card End */
 
 /* Desktop Design */
 @media (min-width: 600px) {
@@ -127,15 +127,15 @@ header {
     background-image: url(images/pattern-background-desktop.svg);
     background-size: 100%;
   }
-  .box {
+  .card {
     width: 450px;
     margin: 102px auto;
   }
-  .box h1 {
+  .card h1 {
     font-size: 29px;
     margin-top: 44px;
   }
-  .box p {
+  .card p {
     width: 325px;
     font-size: 16px;
   }
