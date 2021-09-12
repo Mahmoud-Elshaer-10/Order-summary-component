@@ -41,13 +41,9 @@ body {
 /* Card Start */
 .card {
   margin: 71px auto;
-  width: 327px;
   background-color: white;
   overflow: hidden;
   border-radius: 20px;
-}
-header {
-  position: relative;
 }
 .card h1 {
   font-size: 23px;
@@ -55,7 +51,7 @@ header {
   margin-bottom: 18px;
   color: hsl(223, 47%, 23%);
 }
-.card p {
+.card > p {
   width: 246px;
   margin: 0 auto;
   font-size: 15px;
@@ -76,7 +72,7 @@ header {
 .price h2 {
   font-size: 14.3px;
 }
-.price span {
+.price p {
   color: hsl(224, 23%, 55%);
   font-size: 14px;
   position: relative;
@@ -122,41 +118,40 @@ header {
 /* Card End */
 
 /* Desktop Design */
-@media (min-width: 600px) {
-  body {
-    background-image: url(images/pattern-background-desktop.svg);
-    background-size: 100%;
-  }
-  .card {
-    width: 450px;
-    margin: 102px auto;
-  }
-  .card h1 {
-    font-size: 29px;
-    margin-top: 44px;
-  }
-  .card p {
-    width: 325px;
-    font-size: 16px;
-  }
-  .plan {
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 21px;
-  }
-  .price h2 {
-    font-size: 17px;
-    position: relative;
-    top: -5px;
-  }
-  .price span {
-    font-size: 17px;
-  }
-  .plan a {
-    font-size: 15px;
-  }
-  .pay {
-    margin: 35px auto 30px;
-    width: 79%;
-  }
+
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-size: 100%;
+}
+.card {
+  max-width: 450px;
+  margin: 102px auto;
+}
+.card h1 {
+  font-size: 29px;
+  margin-top: 44px;
+}
+.card > p {
+  width: 325px;
+  font-size: 16px;
+}
+.plan {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 21px;
+}
+.price h2 {
+  font-size: 17px;
+  position: relative;
+  top: -5px;
+}
+.price span {
+  font-size: 17px;
+}
+.plan a {
+  font-size: 15px;
+}
+.pay {
+  margin: 35px auto 30px;
+  width: 79%;
 }
