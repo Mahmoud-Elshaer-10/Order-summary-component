@@ -33,56 +33,61 @@ img {
 body {
   font-family: "Red Hat Display", sans-serif;
   background-color: hsl(225, 100%, 94%);
-  background-image: url(images/pattern-background-mobile.svg);
   text-align: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-size: 100%;
 }
 /* Card Start */
 .card {
-  margin: 71px auto;
   background-color: white;
   overflow: hidden;
   border-radius: 20px;
+  max-width: 450px;
+  margin: 102px auto;
 }
 .card h1 {
-  font-size: 23px;
-  margin-top: 31px;
   margin-bottom: 18px;
   color: hsl(223, 47%, 23%);
+  font-size: 29px;
+  margin-top: 44px;
 }
 .card > p {
-  width: 246px;
   margin: 0 auto;
-  font-size: 15px;
   line-height: 1.6;
   color: hsl(224, 23%, 55%);
+  width: 325px;
+  font-size: 16px;
 }
 .plan {
   display: flex;
   margin: 26px;
   background-color: hsl(225, 100%, 98%);
-  padding: 15px;
   border-radius: 10px;
   align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 21px;
 }
 .price {
   margin-left: 18px;
 }
 .price h2 {
-  font-size: 14.3px;
+  font-size: 17px;
+  position: relative;
+  top: -5px;
 }
 .price p {
   color: hsl(224, 23%, 55%);
-  font-size: 14px;
   position: relative;
   top: 2px;
+  font-size: 17px;
 }
 .plan a {
   margin-left: auto;
-  font-size: 13px;
   font-weight: 700;
   color: hsl(245, 75%, 52%);
+  font-size: 15px;
 }
 .pay {
   display: block;
@@ -91,11 +96,11 @@ body {
   text-decoration: none;
   padding: 15px;
   border-radius: 10px;
-  width: 85%;
-  margin: 0 auto 22px;
   font-weight: 700;
   font-size: 15.5px;
   box-shadow: 0 20px 20px 0 #d8d0ff;
+  margin: 35px auto 30px;
+  width: 79%;
 }
 .cancel {
   display: block;
@@ -114,44 +119,4 @@ body {
 }
 .cancel:hover {
   opacity: 1;
-}
-/* Card End */
-
-/* Desktop Design */
-
-body {
-  background-image: url(images/pattern-background-desktop.svg);
-  background-size: 100%;
-}
-.card {
-  max-width: 450px;
-  margin: 102px auto;
-}
-.card h1 {
-  font-size: 29px;
-  margin-top: 44px;
-}
-.card > p {
-  width: 325px;
-  font-size: 16px;
-}
-.plan {
-  margin-left: 50px;
-  margin-right: 50px;
-  padding: 21px;
-}
-.price h2 {
-  font-size: 17px;
-  position: relative;
-  top: -5px;
-}
-.price span {
-  font-size: 17px;
-}
-.plan a {
-  font-size: 15px;
-}
-.pay {
-  margin: 35px auto 30px;
-  width: 79%;
 }
