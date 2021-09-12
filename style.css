@@ -6,7 +6,7 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-/* .debug {
+.debug {
   position: absolute;
   top: 0;
   left: 50%;
@@ -14,7 +14,7 @@
   z-index: -9;
   opacity: 0.5;
   opacity: 0;
-} */
+}
 
 /* Global Rules Start */
 *,
